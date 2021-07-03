@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 300 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("/imagens/backcinza.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#corpo{
+    background-color: #c4c4c4;
+    max-width: 2066px;
+    min-width: 1190px;
+    height: auto;
+    
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    background-image: url("/imagens/back1000.png");
+    margin-left: 60.9px;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+#menuMobile div{
+    width: 32px;
+    height: 3px;
+    background-color: black;
+    margin: 8px;
+    display: none;
+}
+.navegaca2 ul{
+    position: sticky;
+    top: 0;
+}
+.navegacao2{
+    float: right;   
+}
+#listaMenu{
+    display: flex;
+}
+#listaMenu a{
+    color: white;
+}
+#listaMenu a:hover{
+    color: black;
+}
+.navegacao2 li{                /*configuração das listas*/
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+
+
+    transition: all .8s;
+}
+.navegacao2 li:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline 2px black;
+}
+
+
+
+section{
+    padding-top: 25px;
+    padding-bottom: 39px;
+    background-image: url("/imagens/back1000.png");
+    background-size: cover;
+    height: 498px;
+
+    
+}
+section li{
+    display: inline-block;
+    list-style-type: none;
+    
+    background-size: cover;
+}
+.logos{
+   position: relative;
+   top: -200px;
+   left: 90px;
+   list-style-type: none;    
+}
+.logos img{                              /*Logos dos apps*/
+   width: 40px; 
+   background-color: rgba(255, 255, 255, 0.849); 
+   padding: 5px; 
+   margin-right: 20px;
+   border-radius: 10px;
+
+   /*SOMBRA DAS IMAGENS*/
+   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+
+    /*TRANSOÇAO DO EFEITO DE ROTAÇÃO*/
+    transition: all .5s;
+    
+}
+
+.logos img:hover{
+    border: 0px solid #606060;
+    border-radius: 50%;
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.texto{
+    width: 48%;
+    color: black;
+    text-align: left;
+    float: left;
+    margin-top: 130px;
+    padding-left: 2%;
+}
+/*---------------------------------------------------------------------*/
+/*FORMATAÇÃO DO TEXTO*/
+
+.texto h2{
+    font-size: 30px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: #606060 0.5px 1px 3px;
+
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.texto h1{
+    font-size: 70px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: #606060 0.5px 1px 3px;
+
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.texto p{
+    font-size: 20px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: #606060 0.5px 1px 3px;
+
+    
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.animacao1{ /*animação das letras */
+    animation: cursor 700ms infinite normal, typing 2s 1s steps(28) normal;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color: white 
+    }
+    to{
+        border-right-color: transparent ; 
+    }
+}
+
+/*-------------------------------------------------------------------*/
+
+.imagem{
+    width: 50%;
+    text-align: center;
+}
+.tmimagem{
+    max-width: 300px;
+    border-radius: 5%;
+}
+.baixo{
+    background: #606060;
+    height: auto;
+    color: white;
+    text-align: left;
+    margin-top: -55px;
+   
+}
+.textobaixo h1{
+   margin-left: 50px;
+   font-size: 30px;
+}
+.textobaixo p{
+    width: 92%;
+    margin: auto;
+    font-size: 26px;
+    letter-spacing: 0.05008em;
+    padding-top: 4px;
+}
+.sobremim{
+    background-image: url("/imagens/fundodegrade.png");
+    background-size: cover;
+    height: auto;
+}
+.titulo{
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;;
+    text-align: center;
+    display: block;
+    border: 8px solid black;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.descricao{
+    margin: auto;
+    max-width: 93%;
+    text-align: justify;
+    font-size: 26px;
+    letter-spacing: 0.05008em;
+    padding-top: 4px;
+}
+.sobremim h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    border-left:4px solid black ;
+    border-right:4px solid black ;
+
+    margin-left: 43%;
+    margin-right: 43%;
+    display: block;
+
+    
+}
+.sobremim a{
+    text-decoration: none;
+    color: black;
+}
+.sobremim a:hover{
+    color: white;
+    text-shadow: black 0.5px 1px 3px;
+    text-decoration: underline;
+}
+.quebra{
+    text-align: center;
+}
+.trabalho{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+.lista{
+    text-align: center;
+}
+.trabalho h1{
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 25px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.trabalho p{
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0.10538em;
+    padding-top: 4px;
+}
+.trabalhotm{
+    max-width: 480px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.fundo1{
+    background-image: url("/fundo1.svg");
+    background-repeat: no-repeat;
+}
+.fundo2{
+    background-image:url("/fundo2.svg") ;
+    background-repeat: no-repeat;
+}
+.fundo3{
+    background-image: url("/fundo3.svg");
+    background-repeat: no-repeat;
+}
+.a{
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.titulohabilidades{
+    margin-left: 15%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.18538em;
+}
+.listahabilidades2{
+    text-align: center;
+    display: inline-block;
+    padding: 60px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.13538em;
+    padding-top: 18px;
+}
+
+.titulointeresse{
+    margin-left: 15%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.18538em;
+}
+
+
+.projetos{
+    background-image: url("/imagens/fundoprojetos.jpg");
+    background-size: cover;
+    height: 200px;
+    padding-top: 50px;
+}
+.projetos h1{
+    color: black;
+   
+}
+.listaprojetos{
+    text-align: center;
+    background-color: black;
+    height: auto;
+}
+.listaprojetos li{
+    width: 35%;
+}
+.projetosimg{
+    list-style-type: none;
+    display: inline-block;
+    width: 433px;   
+}
+.contato{
+    background-image: url("/imagens/fundodegrade.png");
+    background-size: cover;
+
+}
+.contato2{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 60px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+
+footer{
+    margin: auto;
+    max-width: 2066px;
+    min-width: 1190px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer .topo{   /*imagem da seta*/
+    padding-top: 70px;
+}
+footer h1{
+    padding: 10px;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer p{
+    padding-bottom: 40px;
+}
+.voltarTopo a{
+    text-decoration: none;
+    color: white;
+}
+/*Animação*/
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;  
+}
+
+[data-anime = "left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+[data-anime = "right"] {
+    transform: translate3d(50px, 0, 0);
+}
+[data-anime = "top"] {
+    transform: translate3d(0,-50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    #corpo{
+        min-width: auto;
+    }
+    header{
+        background: none;
+        position: fixed;
+        z-index: 1;
+    }
+   
+    .navegacao2 ul{
+        position:fixed;
+        top: 79px;
+        right: 0;
+        width: auto;
+        height: 92vh;
+        background-color: #23232e;
+        color: white;
+        font-size: 10px;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        transform: translateY(-150%);
+        transition: .5s;
+    }
+    #menuMobile div{
+        display: block;
+        transition: 0.3s;
+    }
+    #listaMenu li{
+        font-size: 20px;
+        text-align: center; 
+    
+    }
+    #listaMenu li:hover{
+        background-color: #606060;
+        color: white;
+        border-radius: 0;
+        text-decoration: underline;
+    }
+    
+    .navegacao2 ul.active{
+        transform: translateY(0%);
+    }
+
+    #line1.ativar{
+        transform: rotate(-45deg) translate(-8px, 8px);
+    }
+    #line2.ativar2{
+        opacity: 0;
+    }
+    #line3.ativar3{
+        transform: rotate(45deg) translate(-7px, -7px);
+    }
+
+
+
+
+
+
+    .navegacao2 li{
+        margin: 0;
+    }
+
+    section{   /*FUNDO MOBILE*/
+        background-image: url("/imagens/fundomobile.svg");
+    }
+    .imagem{
+        display: none;
+    }
+
+    /*TEXTO APRESENTAÇÃO*/
+    .texto{
+        width: 100%;
+        text-align: center;
+        color: white;
+        
+    }
+    .texto h2{
+       font-size: 25px;
+       font-family: 'Advent Pro', sans-serif;
+    }
+    .texto h1{
+       font-size: 40px;
+       font-family: 'Montserrat', sans-serif;
+      
+    }
+    .texto p{
+        font-size: 20px;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+
+    /*LOGOS DOS APPS*/
+    .logos{
+       
+       margin-top: -90px;
+        margin-left: -67px;
+        text-align: center;      
+    }
+    .baixo{
+        width: auto;
+        margin-top: 35px;
+        
+        
+    }
+    .textobaixo{    /*texto*/
+        width: 85%;
+        margin: auto;
+        text-align: justify;
+    }
+    .textobaixo h1{     /*quem sou eu*/
+        width: 93%;
+        padding-left: 0;
+        margin: auto;
+    }
+    .baixo h2{          /*Mais informações*/
+        width: 80%;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .titulo{
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    }
+    .descricao{
+        max-width: 80%;
+        margin: auto;
+        text-align: justify;
+    }
+    .sobremim h3{
+        margin: 0 28% 0 28%;
+        padding: 10px 0 10px 0;
+        border-left:4px solid black ;
+        border-right:4px solid black ;
+    }
+    
+    .trabalhotm{
+        margin: 0;
+        width: 80%;
+        
+    }
+    .trabalhotm p{
+        text-align: justify;
+    }
+    .titulohabilidades{
+        margin: 0;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 0.18538em;
+    }
+    .listaprojetos li{
+        width: 100%;
+    }
+    .listahabilidades2 p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        letter-spacing: 0.13538em;
+        padding-top: 18px;
+    }
+    .listahabilidades2 img{
+        width: 100px;
+    }
+
+    .titulointeresse{
+        margin: 0;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 0.18538em;
+    }
+    .projetos{
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+
+   
+    footer{
+        min-width: auto;
+
+    }
+   
+
+
+
+    .logos{
+        top: -190px;
+        left: 50px;
+    }
+}
+
+
+
+
