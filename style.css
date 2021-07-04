@@ -210,7 +210,7 @@ section li{
     padding-top: 4px;
 }
 .sobremim{
-    background-image: url(" imagens/fundodegrade.png");
+    background-image: url("imagens/fundodegrade.png");
     background-size: cover;
     height: auto;
 }
