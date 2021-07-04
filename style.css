@@ -503,7 +503,7 @@ footer p{
     }
 
     section{   /*FUNDO MOBILE*/
-        background-image: url(" imagens/fundomobile.svg");
+        background-image: url("imagens/fundomobile.svg");
     }
     .imagem{
         display: none;
