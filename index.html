@@ -234,10 +234,19 @@
                 
 
                 <div class="contato2" data-anime="top">
-                    <form class="form" method="POST" action="">
-                        <input class="field" name="name"type="Nome">
-                        <input class="field" name="email" type="E-mail">
-                        <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui."></textarea>
+                    <form class="card" method="POST" action="https://api.staticforms.xyz/submit">
+                        <input type="hidden" name="accessKey" value="a54cf88a-f64f-4bd6-bb5e-713ae6a4c45f">
+                        <input type="hidden" name="redirectTo" value="https://kelson-cosme.github.io/Portifolio-Kelson/">
+
+                        <label for="inputName">Primeiro Nome:</label>
+                        <input class="field" type="text" name="name"><br>
+
+                        <label for="InputEmail">Endereço Email:</label>
+                        <input class="field" type="email" name="email">
+
+                        <label for="TextArea">Menssagem:</label>
+                        <textarea class="field" name="message" placeholder="Digite sua mensagem aqui."></textarea>
+                        
                         <input class="field" type="submit" value="Enviar">
                     </form>
                 </div>
