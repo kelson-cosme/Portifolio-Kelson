@@ -408,6 +408,11 @@ footer li{
 footer p{
     padding-bottom: 40px;
 }
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .voltarTopo a{
     text-decoration: none;
     color: white;
