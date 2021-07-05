@@ -370,7 +370,7 @@ section li{
 .contato2{
     max-width: 500px;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 10px;
 }
 .form{
     display: flex;
